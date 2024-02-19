@@ -62,7 +62,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 # Ask Doubt on telegram @KingVJ01
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [KannadaFlix6™](https://t.me/KannadaFlix6)</b>⚡\n\nName: {file_name} \n\n⚙️ <b>Size: </b><code>{file_size}</code> \n\n🔥  ↭ <b>Join Now [KannadaFlix6™](https://t.me/KannadaFlix6)</b> ↭  🔥")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [KannadaFlix6™](https://t.me/KannadaFlix6)</b>⚡\n\nName: {file_caption} \n\n⚙️ <b>Size: </b><code>{file_size}</code> \n\n🔥  ↭ <b>Join Now [KannadaFlix6™](https://t.me/KannadaFlix6)</b> ↭  🔥")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
